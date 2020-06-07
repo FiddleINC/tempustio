@@ -1,0 +1,19 @@
+.number-input {
+    display: flex;
+}
+
+.button-minus {
+    margin: 0px 0.25em 0px 0.25em !important;
+}
+
+#popover-basic {
+    width: 125px;
+}
+
+.button-popover {
+    width: 100px !important;
+}
+
+.loader {
+    z-index: 5 !important;
+}

@@ -1,0 +1,36 @@
+.display-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.admin-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 24px;
+    z-index: 5;
+
+}
+
+.admin-box {
+    box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.75);
+}
+
+.jumbo {
+    font-family: 'Josefin Sans', sans-serif !important;
+    font-size: 70px !important;
+    color: whitesmoke !important;
+    letter-spacing: 0.000005px;
+    text-shadow: 1px 1px 2px black !important;
+}
+
+button {
+    font-family: 'Montserrat' sans-serif !important;
+}
+
+.center {
+    text-align: center !important;
+}

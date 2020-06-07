@@ -1,0 +1,18 @@
+{
+	"name": "tempustio",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/FiddleINC/stackhack.git",
+	"author": "Prachurjya Biswas <biswasprachurjya@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"server": "npm start --prefix server",
+		"client": "npm start --prefix client",
+		"dev": "concurrently \"npm run server\" \"npm run client\""
+	},
+	"dependencies": {
+		"concurrently": "^5.2.0",
+		"dom-to-image": "^2.6.0",
+		"js-file-download": "^0.4.12"
+	}
+}
